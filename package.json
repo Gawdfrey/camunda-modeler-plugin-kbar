@@ -1,7 +1,7 @@
 {
-  "name": "camunda-modeler-plugin-example",
+  "name": "camunda-modeler-plugin-kbar",
   "version": "3.1.0",
-  "description": "An example plugin for the Camunda Modeler",
+  "description": "A plugin for the camunda modeler that adds a kbar to the application.",
   "main": "index.js",
   "scripts": {
     "all": "run-s bundle",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/camunda/camunda-modeler-plugin-example.git"
+    "url": "git+https://github.com/gawdfrey/camunda-modeler-plugin-kbar.git"
   },
   "keywords": [
     "camunda",
     "modeler",
     "plugin"
   ],
-  "author": "Philipp Fromme",
+  "author": "Rein Undheim",
   "license": "MIT",
   "devDependencies": {
     "camunda-modeler-plugin-helpers": "^5.0.0",
